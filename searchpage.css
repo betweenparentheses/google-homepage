@@ -4,6 +4,15 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 #main
 	{
     text-align: center;
@@ -64,6 +73,11 @@ form {
 
 }
 
+#navbar a {
+  color: #404040;
+  font: 13px/27px Arial, sans serif;
+}
+
 #userphoto {
   border-radius: 25px;
 }
@@ -99,4 +113,8 @@ form {
 
 #l_footer li, #r_footer li {
   margin: 5px;
+}
+
+#footer a {
+  color: #666;
 }
